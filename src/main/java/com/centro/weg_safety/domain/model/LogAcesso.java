@@ -2,8 +2,7 @@ package com.centro.weg_safety.domain.model;
 
 import com.centro.weg_safety.domain.model.enums.logAcesso.MotivoNegacao;
 import com.centro.weg_safety.domain.model.enums.logAcesso.ResultadoAcesso;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -20,6 +19,8 @@ import java.util.UUID;
 @NoArgsConstructor
 public class LogAcesso {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
     private UUID funcionarioId;

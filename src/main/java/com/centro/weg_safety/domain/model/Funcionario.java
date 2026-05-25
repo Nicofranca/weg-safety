@@ -2,8 +2,7 @@ package com.centro.weg_safety.domain.model;
 
 import com.centro.weg_safety.domain.model.enums.funcionario.Genero;
 import com.centro.weg_safety.domain.model.enums.funcionario.StatusFuncionario;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -21,6 +20,8 @@ import java.util.UUID;
 @NoArgsConstructor
 public class Funcionario {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
 
     private String nome;
