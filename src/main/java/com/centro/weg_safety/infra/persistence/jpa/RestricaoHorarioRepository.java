@@ -1,4 +1,4 @@
-package com.centro.weg_safety.domain.repository;
+package com.centro.weg_safety.infra.persistence.jpa;
 
 import com.centro.weg_safety.domain.model.RestricaoHorario;
 import org.springframework.data.jpa.repository.JpaRepository;
