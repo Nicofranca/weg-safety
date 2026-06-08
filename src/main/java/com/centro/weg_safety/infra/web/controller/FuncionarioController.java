@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/funcionarios")
+@RequestMapping("/api/funcionarios")
 @Tag(name = "Funcionários")
 public class FuncionarioController {
 

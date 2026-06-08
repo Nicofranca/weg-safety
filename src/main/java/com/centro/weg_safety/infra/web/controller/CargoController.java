@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/cargos")
+@RequestMapping("/api/cargos")
 @Tag(name = "Cargos")
 public class CargoController {
 

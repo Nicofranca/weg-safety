@@ -21,7 +21,7 @@ import java.time.LocalDateTime;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/logs")
+@RequestMapping("/api/logs")
 @Tag(name = "Logs de Acesso")
 public class LogController {
 

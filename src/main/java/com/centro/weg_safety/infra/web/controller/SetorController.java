@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/setores")
+@RequestMapping("/api/setores")
 @Tag(name = "Setores")
 public class SetorController {
 

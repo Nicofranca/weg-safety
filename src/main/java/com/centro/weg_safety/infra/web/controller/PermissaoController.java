@@ -19,6 +19,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
+@RequestMapping("/api")
 @Tag(name = "Permissões de Acesso")
 public class PermissaoController {
 

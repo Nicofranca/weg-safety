@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/epi-tipos")
+@RequestMapping("/api/epi-tipos")
 @Tag(name = "Tipos de EPI")
 public class EpiTipoController {
 

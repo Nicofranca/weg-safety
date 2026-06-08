@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
-@RequestMapping("/areas")
+@RequestMapping("/api/areas")
 @Tag(name = "Áreas")
 public class AreaController {
 

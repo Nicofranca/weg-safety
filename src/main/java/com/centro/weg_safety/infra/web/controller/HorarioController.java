@@ -18,6 +18,7 @@ import java.util.List;
 import java.util.UUID;
 
 @RestController
+@RequestMapping("/api")
 @Tag(name = "Restrições de Horário")
 public class HorarioController {
 
